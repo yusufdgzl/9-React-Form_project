@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(2, 2, 2);
+    height: 90px;
+}
+
+.navbar a.active {
+    color: white;
+}
+
+.navlink {
+    text-decoration: none;
+    color: rgb(129, 111, 111);
+    font-size: 30px;
+    margin: auto;
+}
+.navlink:hover {
+    color: white;
+}
+
+.container {
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.submitForm {
+    border: inset;
+    box-shadow: 3px 3px;
+    width: 800px ;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+    padding: 30px;
+    font-size: 23px;
+    text-align: center;
+    flex-direction: column;
+  
+}
+
+#todo {
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    margin: 0 30px;
+}
+
+#todolabel {
+    margin-top: 5px;
+}
+
+.submitButton {
+    width: 100px;
+    height: 34px;
+    color: rgb(151, 137, 137);
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.submitButton:hover {
+    color: white;
+    background-color: rgb(60, 56, 56);
+}
+
+.todoList {
+    width: 700px;
+    height: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.listItem {
+   border: 1px solid;
+   margin: 20px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 20px;
+}
+
+.deleteButton   {
+    background-color: black;
+    color: rgb(173, 166, 166);
+}
+
+.deleteButton:hover {
+    color: white;
+    background-color: rgb(60, 56, 56);
+}
+
+.list {
+    border: inset;
+    box-shadow: 3px 3px;
+    width: 800px ;
+    height: auto;
+    display: flex;
+    margin: 20px auto;
+    padding: 30px;
+    font-size: 23px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.allClearButton {
+    width: 100px;
+    height: 34px;
+    color: rgb(151, 137, 137);
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: auto;
+}
+
+.allClearButton:hover {
+    color: white;
+    background-color: rgb(60, 56, 56);
+}
+
+.siteTextarea {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.textarea {
+   font-size: 25px;
+   max-width: 700px;
+   min-width: 200px;
+   max-height: 700px;
+   min-height: 30px;
+   background-color: rgb(241, 218, 188);
+}
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.selectForm {
+    display: flex;
+    margin: 30px auto;
+}
+
+.select {
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    background-color: black;
+    color: rgb(145, 157, 168);
+    
+}
+.select:hover {
+color: white;
+}
+
+.selectItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.motorCard {
+    border: 3px inset black;
+    margin: 20px ;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
